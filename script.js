@@ -34,6 +34,7 @@ no.addEventListener("click",function(event){
 
 yes.addEventListener("click", function(event){
     frame.innerHTML = "";
+    document.body.removeChild(no)
     let img = document.createElement("img");
     img.style.borderRadius = "20px"
     img.src = 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDg4aG41NmNpaGV6NWtzZnozcnljODhlc3p2enZ4NHQ4aGlnNWJ3ciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yL558PFPKeCtFxkiUi/giphy.gif';
